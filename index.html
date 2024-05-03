@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhithees M</title>
+    <script src="https://kit.fontawesome.com/286a67d1a2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header"> Home</a></li>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#services"> Service</a></li>
+                <li><a href="#portfolio"> Portfolio</a></li>
+                <li><a href="#contact"> Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Nhithees</span><br> From India</h1>
+        </div>
+    </div>
+</div>
+<!-- -------------about------------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Solidity</span><br>Designing Solidity Smart Contracts</li>
+                        <li><span>Web Development</span><br>Designing Web Interfaces</li>
+                        <li><span>Cryptography</span><br>Designing Cryptography Algorithms</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Nov 2023 - Dec 2023</span>
+                            <br> 
+                            <h1>Software Developer Intern</h1> 
+                            <br>
+                            <h3>OpenBootcamp</h3>
+                            <br>
+                            <p>Contributed to team projects by writing and debugging code, gaining hands-on experience in software development 
+                                methodologies and technologies such as JavaScript, HTML, CSS, NodeJS and Git. </p> 
+                        </li>
+                        
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020 - 2024 </span><br>
+                            <br> 
+                            <h2>B.Tech Computer Science and Engineering (Cybersecurity & Blockchain technology)</h2> 
+                            <br>
+                            <h3>SASTRA Deemed University</h3>
+                            <br>
+                        </li>
+                        <li><span>2019 - 2020 </span><br>
+                            <br> 
+                            <h2>12th Grade</h2> 
+                            <br>
+                            <h3> Achyuta Public School</h3>
+                            <br>
+                        </li>
+                        <li><span>2017 - 2018 </span><br>
+                            <br> 
+                            <h2>10th Grade</h2> 
+                            <br>
+                            <h3> Achyuta Public School</h3>
+                            <br>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- -------------services------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>DApp Design using web3.0</h2>
+                <p>Specializing in decentralized application (DApp) design using cutting-edge web3.0 technologies. From smart contract development to user interface design, I create seamless and secure decentralized solutions tailored to your needs.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Development Design</h2>
+                <p>Crafting captivating web experiences that resonate with your audience. Using the latest web technologies and design trends, I bring your ideas to life with pixel-perfect precision and unmatched creativity.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Cryptography Algorithm Design</h2>
+                <p>Delving into the intricate world of cryptography to design robust and secure algorithms. Whether it's encryption, hashing, or digital signatures, I provide tailored cryptographic solutions to safeguard your data and transactions.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------portfolio------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/2.png">
+                <div class="layer">
+                    <h3>FarMarket : Blockchain-based farming marketplace with supply chain management</h3>
+                    <p>Blockchain technology empowers FarMarket, a decentralized farming marketplace, ensuring transparent supply chain management from farm to table.</p>
+                    <a href="https://github.com/NhitheesM/FarMarket"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/1.png">
+                <div class="layer">
+                    <h3>Dappazon: Decentralized E-Commerce with Hardhat, Solidity, ReactJS, and EtherJS</h3>
+                    <p>Revolutionizing e-commerce, Dappazon leverages blockchain and cutting-edge technologies to create a secure, decentralized shopping experience.</p>
+                    <a href="https://github.com/NhitheesM/Amazon_Clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/3.png">
+                <div class="layer">
+                    <h3>Hill Cipher Encryption and Decryption Algorithm using Python</h3>
+                    <p>Securing data transmission with Hill Cipher, this Python-based encryption algorithm ensures confidentiality and integrity in communication.</p>
+                    <a href="https://github.com/NhitheesM/Hill_Cipher_Project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/4.png">
+                <div class="layer">
+                    <h3>Huffman Coding - A lossless data compression algorithm using C++</h3>
+                    <p>Optimizing storage and transmission, Huffman Coding, implemented in C++, achieves lossless compression for efficient data handling.</p>
+                    <a href="https://github.com/NhitheesM/Huffman_Coding_Project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- -------------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> nhitheesmohan@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91-9843427680</p>
+                <div class="social-icons">
+                    <a href="https://github.com/NhitheesM"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/MNhithees?t=Ugv6S_2MX_l9bjThqCDuqA&s=35"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com/in/nhitheesm"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/nhithees_mohan/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> NhitheesM</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    var sidemn = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemn.style.right="0";
+    }
+    function closemenu(){
+        sidemn.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz-oX6ZVpRSp6qq10fTb0t1mFp1t7P_0olNtLISa89MHnnunx_m-vjfan8p72HY1u28/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html> 
