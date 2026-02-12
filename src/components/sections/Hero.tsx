@@ -15,7 +15,7 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
           className="text-primary font-mono text-lg tracking-wide"
         >
-          Software Developer
+          Automation Engineer & AI Architect
         </motion.p>
 
         <motion.h1
@@ -35,7 +35,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-muted-foreground text-xl max-w-2xl"
         >
-          Building scalable web applications and decentralized solutions with modern technologies.
+          Building autonomous workflows and intelligent AI agents using n8n and modern technologies.
         </motion.p>
 
         <motion.div
