@@ -19,7 +19,7 @@ const Contact = () => {
     const formData = new FormData(form);
 
     try {
-      await fetch(scriptURL, { method: 'POST', body: formData });
+      await fetch(scriptURL, { method: 'POST', body: formData, mode: 'no-cors' });
       setMessage("Message sent successfully!");
       form.reset();
       setTimeout(() => setMessage(""), 5000);
@@ -111,7 +111,7 @@ const Contact = () => {
               </Button>
 
               {message && (
-                <p className={`text-sm text-center ${message.includes("Error") ? "text-destructive" : "text-green-500"}`}>
+                <p className={`text-sm text-center ${message.includes("wrong") || message.includes("Error") ? "text-destructive" : "text-green-500"}`}>
                   {message}
                 </p>
               )}

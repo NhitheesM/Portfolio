@@ -28,15 +28,6 @@ const triggerIcons = {
   app: ExternalLink,
 };
 
-const triggerLabels: Record<string, string> = {
-  webhook: 'Webhook',
-  email: 'Email Trigger',
-  manual: 'Manual',
-  schedule: 'Schedule',
-  chat: 'Chat Trigger',
-  app: 'Full-stack App',
-};
-
 const Workflows = () => {
   const [selectedWorkflow, setSelectedWorkflow] = useState<Workflow | null>(null);
 
