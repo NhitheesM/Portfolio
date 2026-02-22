@@ -75,7 +75,7 @@ const Contact = () => {
 
           <div className="pt-6">
             <Button variant="outline" className="w-full sm:w-auto" asChild>
-              <a href="/images/my-cv.pdf" download>
+              <a href={`${import.meta.env.BASE_URL}images/Nhithees_M_AI_Automation_Engineer_Resume.pdf`} download>
                 Download Resume
               </a>
             </Button>

@@ -17,7 +17,7 @@ const Skills = () => {
     {
       title: "Automation & Workflows",
       icon: Workflow,
-      items: ["n8n", "Zapier", "Make.com", "API Integration", "Web Scraping", "Cron Jobs"]
+      items: ["n8n", "API Integration", "Web Scraping", "Cron Jobs"]
     }
   ];
 
